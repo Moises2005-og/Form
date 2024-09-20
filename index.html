@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" onsubmit="handleSubmit">
+            <h1>Contact us form</h1>
+            <div class="campos">
+                <div class="campo">
+                    <input type="text" name="nome" id="primeiro_nome" placeholder="Digite o primeiro nome" required>
+                </div>
+                <div class="campo">
+                    <input type="text" name="nome" id="ultimo_nome" placeholder="Digite o seu sobrenome" required>
+                </div>
+                <div class="campo">
+                    <input type="email" name="email" id="email" placeholder="Digite o seu email" required>
+                </div>
+                <div class="campo">
+                    <input type="text" name="website" id="website" placeholder="Digite o nome do seu site" required>
+                </div>
+            </div>
+            <div id="campo-especial">
+                <input type="text" name="message" id="message" placeholder=" Escreva uma mensagem" required>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
